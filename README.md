@@ -1,7 +1,7 @@
 # Chat-GPT-API
 
 <p align="center">
-  <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/6/2023/01/30023721/openai-chatgpt-elon-musk-artificial-intelligence.png?tr" width="400" height="250" />
+  <img src="https://media3.giphy.com/media/qAtZM2gvjWhPjmclZE/giphy.gif" width="400" height="250" />
 </p>
 
 ### This Repository will let you use Chat-GPT from your terminal
