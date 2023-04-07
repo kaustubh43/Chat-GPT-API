@@ -6,14 +6,15 @@
 
 ### This Repository will let you use Chat-GPT from your terminal
 
-### Installation:
+### Installation for nerds:
  > Setting up a virtual environment in your terminal
  >> 1. ```python -m venv venv```
  >> 2. ```.\venv\Scripts\activate```
  >> 3. ```pip install -r requirementss.txt```
  >> Above steps will install all the requirements
  >
-> Running the script
->>
+
+### Installation for non-nerds
+> run setup.bat file
 
 Will try to add more functionality and make it a GUI application
