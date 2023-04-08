@@ -6,6 +6,14 @@
 
 ### This Repository will let you use Chat-GPT from your terminal
 
+### Initial Setup: API KEY
+> First we need to enter your key in order to communicate with the API
+>>1. You will have to sign in with your Chat GPT Account
+>>2. [Find your key here](https://platform.openai.com/account/api-keys)
+>>3. Paste your key in Authentication.txt
+>>
+> ### Make sure you do not share the key with anyone 
+
 ### Installation for nerds:
  > Setting up a virtual environment in your terminal
  >> 1. ```python -m venv venv```
