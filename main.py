@@ -1,6 +1,7 @@
 import openai
 import urllib.request
 from PIL import Image
+import os
 
 
 def get_API_key():
@@ -34,6 +35,9 @@ def display_image(img):
     for data in img.data:
         result.append(data.url)
     print(result)
+    newpath = r'.\Images'
+    if not os.path.exists(newpath):
+        os.makedirs(newpath)
     for i, url in enumerate(result):
         urllib.request.urlretrieve(url, '.\Images\image' + str(i) + '.png')
         img = Image.open('.\Images\image' + str(i) + '.png')
@@ -42,7 +46,7 @@ def display_image(img):
 
 def image_create():
     response = openai.Image.create(
-        prompt="Cat sitting on a chair",
+        prompt="Horse driving a car",
         n=2,
         size="1024x1024",
         response_format='url'
