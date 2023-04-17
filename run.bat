@@ -1,29 +1,9 @@
-@echo Starting...
-
-
-
-@echo ON
-echo Making a new venv environment
-@echo OFF
-
-call python -m venv venv
-@echo ON
-echo venv created
-echo installing requirements
-@echo OFF
-
+@echo Running
 @echo ON
 @echo Activating python venv
 @echo OFF
 
 call .\venv\Scripts\activate
-
-python.exe -m pip install --upgrade pip
-
-call pip3 install -r .\requirements.txt
-
-
-
 
 @echo ON
 @echo Running your script... Please wait

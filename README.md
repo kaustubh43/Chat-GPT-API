@@ -21,8 +21,14 @@
  >> 3. ```pip install -r requirementss.txt```
  >> Above steps will install all the requirements
  >
+### How to run?
+> ```python3 main.py```
+> 
 
 ### Installation for non-nerds
-> run setup.bat file
+> Run 'setup.bat' file
+
+### How to run for non-nerds
+> Run 'run.bat' file
 
 Will try to add more functionality and make it a GUI application
